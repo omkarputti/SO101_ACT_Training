@@ -1,18 +1,6 @@
-# SO-101 Physical AI Hackathon — Simulation & Execution Guide 🚀
+#  Physical AI Robothon — Simulation & Execution Guide 🚀
 
 A step-by-step guide to running the SO-101 simulation and executing the pick-and-place pipeline.
-
----
-
-## Table of Contents
-
-- [1. Environment Preparation](#1-environment-preparation)
-- [2. Workspace Setup](#2-workspace-setup)
-- [3. Before Running](#3-before-running)
-- [4. Running the System](#4-running-the-system)
-- [5. Expected Behavior](#5-expected-behavior)
-- [Common Issues](#-common-issues)
-- [Quick Checklist](#-quick-checklist)
 
 ---
 
