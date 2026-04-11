@@ -1,4 +1,4 @@
-#  Physical AI Robothon — Simulation & Execution Guide 🚀
+#  Physical AI Robothon — Simulation & Execution Guide 
 
 A step-by-step guide to running the SO-101 simulation and executing the pick-and-place pipeline.
 
