@@ -2,7 +2,7 @@
 
 ---
 
-## 📹 Demo
+## 📹 Demo Video 
 
 <p align="center">
   <a href="https://drive.google.com/file/d/1kThmXz0Tqy8LL8TvBwr9ySqtgZsw9DNN/view?usp=drive_link">
