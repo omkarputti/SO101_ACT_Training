@@ -1,6 +1,10 @@
 #  Physical AI Robothon — Simulation & Execution Guide 
 
-A step-by-step guide to running the SO-101 simulation and executing the pick-and-place pipeline.
+---
+
+## 📹 Demo
+
+[![Watch Demo](https://www.google.com/imgres?q=lerobot%20smolVLA&imgurl=https%3A%2F%2Fcdn-uploads.huggingface.co%2Fproduction%2Fuploads%2F640e21ef3c82bd463ee5a76d%2FaooU0a3DMtYmy_1IWMaIM.png&imgrefurl=https%3A%2F%2Fhuggingface.co%2Fdocs%2Flerobot%2Fsmolvla&docid=QMABvKLhnrB8LM&tbnid=GSJowFD1BWQlcM&vet=12ahUKEwjQhNbDwOWTAxU4yzgGHWaCMjMQnPAOegQIGBAB..i&w=2554&h=1434&hcb=2&ved=2ahUKEwjQhNbDwOWTAxU4yzgGHWaCMjMQnPAOegQIGBAB)](https://drive.google.com/file/d/1kThmXz0Tqy8LL8TvBwr9ySqtgZsw9DNN/view?usp=drive_link)
 
 ---
 
