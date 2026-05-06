@@ -1,4 +1,4 @@
-# 🤖 SO101 Robot Arm Training Guide Using SOLO CLI
+#  SO101 Robot Arm Training Guide Using SOLO CLI
 
 This repository is made for anyone in the world who owns an SO101 robotic arm.
 
@@ -30,7 +30,7 @@ Everything is written in simple copy-paste steps.
 
 ---
 
-## 🌍 What This Repository Helps You Do
+##  What This Repository Helps You Do
 
 If you have an SO101 robotic arm, you can use these datasets to teach your robot new skills using imitation learning.
 
@@ -42,12 +42,12 @@ The AI model learns from the demonstrations and predicts robot actions automatic
 
 ---
 
-## 📦 Available Datasets
+##  Available Datasets
 
 | Dataset | Description |
 |--------|-------------|
-| `omkarputti/S0101_pick_and_place` | Pick and Place task |
-| `omkarputti/S0101_liquid_pouring` | Liquid Pouring task |
+| `https://huggingface.co/datasets/omkarputti/SO101_pick_and_place` | Pick and Place task |
+| `https://huggingface.co/datasets/omkarputti/SO101_liquid_pouring` | Liquid Pouring task |
 
 🔗 Hugging Face profile: [https://huggingface.co/omkarputti](https://huggingface.co/omkarputti)
 
@@ -57,7 +57,7 @@ The AI model learns from the demonstrations and predicts robot actions automatic
 
 ---
 
-## 💻 System Requirements
+##  System Requirements
 
 **Recommended:**
 
@@ -75,7 +75,7 @@ The AI model learns from the demonstrations and predicts robot actions automatic
 
 ---
 
-## 🔧 Step 1 — Install Basic Tools
+##  Step 1 — Install Basic Tools
 
 Open terminal and copy-paste:
 
@@ -92,7 +92,7 @@ git lfs install
 
 ---
 
-## 🔑 Step 2 — Login to Hugging Face
+##  Step 2 — Login to Hugging Face
 
 Install Hugging Face CLI:
 
@@ -114,7 +114,7 @@ Choose: `Write Access`
 
 ---
 
-## 📥 Step 3 — Clone SOLO CLI
+##  Step 3 — Clone SOLO CLI
 
 Go to Desktop:
 
@@ -136,7 +136,7 @@ cd solo-cli
 
 ---
 
-## 🐍 Step 4 — Create Python Environment
+##  Step 4 — Create Python Environment
 
 Create environment:
 
@@ -158,7 +158,7 @@ Your terminal should now show:
 
 ---
 
-## 📦 Step 5 — Install SOLO CLI
+##  Step 5 — Install SOLO CLI
 
 Install SOLO:
 
@@ -180,7 +180,7 @@ pip install lerobot
 
 ---
 
-## 📂 Step 6 — Download Dataset
+##  Step 6 — Download Dataset
 
 Move to a workspace folder:
 
@@ -192,13 +192,13 @@ cd ~/robot_datasets
 Download **Pick and Place** dataset:
 
 ```bash
-git clone https://huggingface.co/datasets/omkarputti/S0101_pick_and_place
+git clone https://huggingface.co/datasets/omkarputti/SO101_pick_and_place
 ```
 
 OR download **Liquid Pouring** dataset:
 
 ```bash
-git clone https://huggingface.co/datasets/omkarputti/S0101_liquid_pouring
+git clone https://huggingface.co/datasets/omkarputti/SO101_liquid_pouring
 ```
 
 ---
@@ -220,7 +220,7 @@ data/
 videos/
 ```
 
-✅ That means the dataset is valid.
+ That means the dataset is valid.
 
 ---
 
@@ -247,7 +247,7 @@ dataset = load_dataset("omkarputti/S0101_pick_and_place")
 print(dataset)
 ```
 
-If it prints dataset info — ✅ Everything works.
+If it prints dataset info —  Everything works.
 
 Exit Python:
 
@@ -273,7 +273,7 @@ After training:
 
 ---
 
-## 🚀 Step 9 — Start Training ACT Model
+##  Step 9 — Start Training ACT Model
 
 ### Train on Pick and Place Dataset
 
@@ -337,7 +337,7 @@ Your trained robot model is there.
 
 ---
 
-## 🧠 What Is Inference?
+##  What Is Inference?
 
 Inference means using the trained AI model to control the real robot.
 
@@ -349,7 +349,7 @@ After training finishes:
 
 ---
 
-## ▶️ Step 12 — Run Inference
+##  Step 12 — Run Inference
 
 ```bash
 python -m lerobot.scripts.eval \
@@ -359,7 +359,7 @@ python -m lerobot.scripts.eval \
 
 ---
 
-## 📤 Step 13 — Upload Trained Model to Hugging Face
+##  Step 13 — Upload Trained Model to Hugging Face
 
 Create model repo: [https://huggingface.co/new-model](https://huggingface.co/new-model)
 
@@ -391,18 +391,7 @@ git push -u origin main
 
 ---
 
-## 🔥 Recommended Beginner Workflow
-
-1. Upload dataset
-2. Verify viewer works
-3. Train ACT
-4. Watch loss decrease
-5. Test inference
-6. Upload trained model
-
----
-
-## 🧠 Important Tips
+##  Important Tips
 
 ### Tip 1 — Small Datasets
 
@@ -483,7 +472,7 @@ Sometimes Hugging Face needs 5–15+ minutes to index parquet files. This usuall
 
 ---
 
-## 📚 Official SOLO CLI Documentation
+##  Official SOLO CLI Documentation
 
 For setup errors or advanced commands: [https://github.com/GetSoloTech/solo-cli](https://github.com/GetSoloTech/solo-cli)
 
@@ -518,29 +507,16 @@ This repository is designed to help SO101 robotic arm users:
 
 ---
 
-## 🎯 Final Goal
-
-By the end you will know how to:
-
-- ✅ Upload robotics datasets
-- ✅ Use Hugging Face datasets
-- ✅ Train ACT robot models
-- ✅ Use SOLO CLI
-- ✅ Work with LeRobot datasets
-- ✅ Upload trained robot models
-
----
-
 ## 🚀 Dataset Links
 
 | Task | Link |
 |------|------|
-| Pick and Place | [https://huggingface.co/datasets/omkarputti/S0101_pick_and_place](https://huggingface.co/datasets/omkarputti/S0101_pick_and_place) |
-| Liquid Pouring | [https://huggingface.co/datasets/omkarputti/S0101_liquid_pouring](https://huggingface.co/datasets/omkarputti/S0101_liquid_pouring) |
+| Pick and Place | [https://huggingface.co/datasets/omkarputti/SO101_pick_and_place](https://huggingface.co/datasets/omkarputti/SO101_pick_and_place) |
+| Liquid Pouring | [https://huggingface.co/datasets/omkarputti/SO101_liquid_pouring](https://huggingface.co/datasets/omkarputti/SO101_liquid_pouring) |
 
 ---
 
-## 🤖 Robot Hardware
+##  Robot Hardware
 
 ```
 SO101 Robotic Arm
@@ -548,10 +524,3 @@ SO101 Robotic Arm
 
 The datasets were collected manually and uploaded to Hugging Face for imitation-learning training.
 
----
-
-## 👨‍💻 Created By
-
-**Omkar Putti**
-
-*Robotics | Simulation | Control Systems*
