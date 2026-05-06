@@ -1,4 +1,4 @@
-#  SO101 Robot Arm Training Guide Using SOLO CLI
+#  SO101 Arm ACT Training Guide Using SOLO CLI
 
 This repository is made for anyone in the world who owns an SO101 robotic arm.
 
@@ -203,7 +203,7 @@ git clone https://huggingface.co/datasets/omkarputti/SO101_liquid_pouring
 
 ---
 
-## 📁 Step 7 — Check Dataset Structure
+##  Step 7 — Check Dataset Structure
 
 Run:
 
@@ -224,7 +224,7 @@ videos/
 
 ---
 
-## 🧪 Step 8 — Test Dataset Loading
+##  Step 8 — Test Dataset Loading
 
 Go back to SOLO CLI folder:
 
@@ -297,7 +297,7 @@ python -m lerobot.scripts.train \
 
 ---
 
-## 🖥️ Step 10 — Watch Training
+##  Step 10 — Watch Training
 
 During training you will see:
 
@@ -312,7 +312,7 @@ Training may take 30 minutes to several hours depending on your GPU.
 
 ---
 
-## 📂 Step 11 — Find Trained Model
+##  Step 11 — Find Trained Model
 
 After training:
 
