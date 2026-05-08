@@ -1,5 +1,7 @@
 #  SO101 Arm ACT Training Guide Using SOLO CLI
 
+![Solo](solo-banner.png)
+
 This repository is made for anyone in the world who owns an SO101 robotic arm.
 
 The datasets in this repository were recorded manually by me using the SO101 robot arm.
@@ -271,9 +273,13 @@ After training:
 * You get a trained robot AI model
 * The model can control the SO101 robotic arm
 
+![ACT Training and Inference](ACT.png)
+
 ---
 
 ##  Step 9 — Start Training ACT Model
+
+![Training Setup](training.png)
 
 ### Train on Pick and Place Dataset
 
@@ -518,9 +524,10 @@ This repository is designed to help SO101 robotic arm users:
 
 ##  Robot Hardware
 
+![SO101 Robotic Arm](so101.webp)
+
 ```
 SO101 Robotic Arm
 ```
 
 The datasets were collected manually and uploaded to Hugging Face for imitation-learning training.
-
